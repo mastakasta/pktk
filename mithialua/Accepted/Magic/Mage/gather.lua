@@ -1,6 +1,6 @@
 gather = {
 cast = function(player)
-	local aether = 30000
+	local aether = 3000
 	local healthCost = (player.maxMagic * .6)
 	local minMagic = 30
 	
