@@ -40,6 +40,8 @@ click = async(function(player, npc)
 			if (player:canLearnSpell("electrocute"))  then
 				player:addSpell("electrocute")
 			end
+
+			player:addItem("spring_mantle", 1)
 			
 			player:flushDuration(1)
 			player:sendMinitext("You learned mage spells.")
